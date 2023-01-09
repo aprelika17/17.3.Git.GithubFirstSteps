@@ -12,6 +12,6 @@ public class DodoTest {
     void addToCart() {
         open("https://dodopizza.ru/nizhnynovgorod");
         $(byText("Комбо")).click();
-        $(byText("2 пиццы")).click();
+        $(byText("3 пиццы")).click();
         }
 }
